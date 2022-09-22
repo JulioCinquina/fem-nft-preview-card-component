@@ -42,6 +42,10 @@ picture {
   max-width: 20.4375rem;
   padding: 1.5rem;
   background-color: var(--bg-card);
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .nft * {
