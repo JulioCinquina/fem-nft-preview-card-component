@@ -1,5 +1,13 @@
 :root {
   box-sizing: border-box;
+
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+
+  --bg-main: hsl(217, 54%, 11%);
+  --bg-card: hsl(216, 50%, 16%);
+  --color-line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
 }
 
 *,
@@ -11,6 +19,9 @@
 body {
   min-height: 100vh;
   margin: 0;
+
+  background-color: var(--bg-main);
+  color: var(--soft-blue);
 
   font-family: "Outfit", sans-serif;
   font-size: 1.125rem;
@@ -30,11 +41,15 @@ picture {
 .nft {
   max-width: 20.4375rem;
   padding: 1.5rem;
-  outline: 1px solid red;
+  background-color: var(--bg-card);
 }
 
 .nft * {
   margin: 0;
+}
+
+.nft h2 {
+  color: var(--white);
 }
 
 .nft__price-time {
