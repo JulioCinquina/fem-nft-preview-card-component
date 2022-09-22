@@ -24,7 +24,7 @@ body {
   color: var(--soft-blue);
 
   font-family: "Outfit", sans-serif;
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.5;
 
   display: grid;
@@ -48,8 +48,14 @@ picture {
   margin: 0;
 }
 
-.nft h2 {
+.nft__title {
+  font-size: 1.375rem;
+  font-weight: 600;
   color: var(--white);
+}
+
+.nft__description {
+  font-weight: 300;
 }
 
 .nft__price-time {
@@ -61,16 +67,28 @@ picture {
   display: flex;
   align-items: center;
   gap: 10px;
+
+  font-size: 0.9375rem;
+}
+
+.nft__price p {
+  color: var(--cyan);
 }
 
 .nft__author {
   display: flex;
   align-items: center;
   gap: 10px;
+  font-weight: 300;
 }
 
 .nft__author img {
   max-width: 2.25rem;
+}
+
+.nft__author a {
+  color: var(--white);
+  text-decoration: none;
 }
 
 .attribution {
