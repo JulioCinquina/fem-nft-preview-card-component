@@ -78,7 +78,7 @@ picture {
 .nft__author {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 16px;
   font-weight: 300;
 }
 
