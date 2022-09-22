@@ -27,6 +27,37 @@ picture {
   max-width: 100%;
 }
 
+.nft {
+  max-width: 20.4375rem;
+  padding: 1.5rem;
+  outline: 1px solid red;
+}
+
+.nft * {
+  margin: 0;
+}
+
+.nft__price-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nft__price-time div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nft__author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nft__author img {
+  max-width: 2.25rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
