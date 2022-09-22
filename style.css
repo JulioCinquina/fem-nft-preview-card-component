@@ -83,7 +83,9 @@ picture {
 }
 
 .nft__author img {
-  max-width: 2.25rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--white);
+  max-width: 2rem;
 }
 
 .nft__author a {
