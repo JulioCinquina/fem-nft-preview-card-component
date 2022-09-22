@@ -75,6 +75,11 @@ picture {
   color: var(--cyan);
 }
 
+.nft hr {
+  margin: 0;
+  border: 1px solid var(--color-line);
+}
+
 .nft__author {
   display: flex;
   align-items: center;
