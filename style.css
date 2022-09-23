@@ -39,7 +39,7 @@ picture {
 }
 
 .nft {
-  max-width: 20.4375rem;
+  width: min(20.4375rem, 90%);
   padding: 1.5rem;
   border-radius: 1rem;
   background-color: var(--bg-card);
