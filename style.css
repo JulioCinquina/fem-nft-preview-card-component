@@ -123,3 +123,33 @@ main {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media screen and (min-width: 48em) {
+  body {
+    font-size: 1.125rem;
+  }
+  .nft {
+    width: min(21.875rem, 90%);
+    padding-block-end: 1.875rem;
+  }
+
+  .nft__img {
+    margin-bottom: 1.75rem;
+  }
+
+  .nft__body {
+    gap: 1.25rem;
+  }
+
+  .nft__price-time {
+    font-size: 1rem;
+  }
+
+  .nft__price-time div {
+    gap: 0.375rem;
+  }
+
+  .nft__author {
+    font-size: 1.0313rem;
+  }
+}
