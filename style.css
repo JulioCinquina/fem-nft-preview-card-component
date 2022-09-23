@@ -38,6 +38,11 @@ picture {
   max-width: 100%;
 }
 
+main {
+  display: grid;
+  place-items: center;
+}
+
 .nft {
   width: min(20.4375rem, 90%);
   padding: 1.5rem;
