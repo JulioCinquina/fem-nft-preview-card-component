@@ -80,9 +80,7 @@ main {
 .nft__price-time div {
   display: flex;
   align-items: center;
-  gap: 0.625rem;
-
-  font-size: 0.9375rem;
+  gap: 0.25rem;
 }
 
 .nft__price p {
