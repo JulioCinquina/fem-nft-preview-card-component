@@ -27,9 +27,8 @@ body {
   font-size: 1rem;
   line-height: 1.5;
 
-  display: grid;
-  grid-template-rows: 1fr auto;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 img,
@@ -39,6 +38,7 @@ picture {
 }
 
 main {
+  flex: 1;
   display: grid;
   place-items: center;
 }
