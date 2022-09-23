@@ -97,6 +97,7 @@ main {
   display: flex;
   align-items: center;
   gap: 1rem;
+  font-size: 0.9688rem;
   font-weight: 300;
 }
 
