@@ -48,13 +48,15 @@ main {
   padding: 1.5rem;
   border-radius: 1rem;
   background-color: var(--bg-card);
+}
 
+.nft__body {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.nft * {
+.nft__body * {
   margin: 0;
 }
 
