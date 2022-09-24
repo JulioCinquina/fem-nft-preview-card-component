@@ -152,10 +152,6 @@ main {
     gap: 1.25rem;
   }
 
-  .nft__price-time {
-    font-size: 1rem;
-  }
-
   .nft__price-time div {
     gap: 0.375rem;
   }
