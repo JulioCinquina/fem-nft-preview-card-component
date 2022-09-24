@@ -70,6 +70,11 @@ main {
   font-weight: 600;
   line-height: 1;
   color: var(--white);
+  transition: color 250ms ease-in-out;
+}
+
+.nft__title:hover {
+  color: var(--cyan);
 }
 
 .nft__description {
@@ -77,6 +82,7 @@ main {
 }
 
 .nft__price-time {
+  font-size: 1rem;
   display: flex;
   justify-content: space-between;
 }
@@ -114,6 +120,11 @@ main {
 .nft__author a {
   color: var(--white);
   text-decoration: none;
+  transition: color 250ms ease-in-out;
+}
+
+.nft__author a:is(:hover, :focus) {
+  color: var(--cyan);
 }
 
 .attribution {
