@@ -76,8 +76,7 @@ main {
   transition: opacity 200ms ease-in-out;
 }
 
-.nft__img::after {
-  content: url(images/icon-view.svg);
+.nft__img .overlay-icon {
   position: absolute;
   left: 50%;
   top: 50%;
