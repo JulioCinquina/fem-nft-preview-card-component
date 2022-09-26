@@ -91,7 +91,14 @@ main {
   transition: opacity 200ms ease-in-out;
 }
 
-.nft__img:is(:hover, :focus) {
+@media (hover: hover) {
+  .nft__img:hover {
+    --overlay-opacity: 0.5;
+    --eye-opacity: 1;
+  }
+}
+
+.nft__img:focus {
   --overlay-opacity: 0.5;
   --eye-opacity: 1;
 }
