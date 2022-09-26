@@ -109,8 +109,25 @@ main {
 }
 
 .nft__dialog {
-  border: none;
   padding: 0;
+  border: none;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.nft__dialog button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.5rem;
+  border-color: transparent;
+  border-radius: 50%;
+  background-color: var(--white);
+  font-family: inherit;
+  font-size: 1.5rem;
+  line-height: 0.5;
+  color: black;
+  cursor: pointer;
 }
 
 .nft__dialog::backdrop {
