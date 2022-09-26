@@ -61,6 +61,8 @@ main {
 }
 
 .nft__img {
+  all: unset;
+  display: block;
   border-radius: 0.5rem;
   margin-bottom: 1.5rem;
   overflow: hidden;
@@ -85,9 +87,13 @@ main {
   transition: opacity 200ms ease-in-out;
 }
 
-.nft__img:hover {
+.nft__img:is(:hover, :focus) {
   --overlay-opacity: 0.5;
   --eye-opacity: 1;
+}
+
+.nft__img:focus-visible {
+  outline: 2px solid var(--cyan);
 }
 
 .nft__title {
