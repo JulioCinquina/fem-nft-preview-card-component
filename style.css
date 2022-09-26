@@ -109,6 +109,10 @@ main {
 }
 
 .nft__dialog {
+  --scrollbar-bg: var(--bg-main);
+  --scrollbar-fg: var(--color-line);
+  scrollbar-color: var(--scrollbar-fg) var(--scrollbar-bg);
+
   padding: 0;
   border: none;
   border-radius: 1rem;
@@ -132,6 +136,19 @@ main {
 
 .nft__dialog::backdrop {
   background-color: var(--backdrop-color);
+}
+
+.nft__dialog::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.nft__dialog::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-bg);
+}
+
+.nft__dialog::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-fg);
 }
 
 .nft__title {
