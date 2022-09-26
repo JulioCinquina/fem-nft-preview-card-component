@@ -17,7 +17,7 @@
 }
 
 ::backdrop {
-  --backdrop-color: hsla(178, 100%, 50%, 0.3);
+  --backdrop-color: rgb(0 0 0 / 0.4);
 }
 
 body {
