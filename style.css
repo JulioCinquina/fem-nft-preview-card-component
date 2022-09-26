@@ -41,6 +41,10 @@ picture {
   max-width: 100%;
 }
 
+a {
+  color: inherit;
+}
+
 main {
   flex: 1;
   display: grid;
@@ -216,9 +220,6 @@ main {
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
 }
 
 @media screen and (min-width: 48em) {
