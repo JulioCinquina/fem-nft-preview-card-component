@@ -96,6 +96,10 @@ main {
   outline: 2px solid var(--cyan);
 }
 
+.nft__dialog {
+  border: none;
+  padding: 0;
+}
 .nft__title {
   font-size: 1.375rem;
   font-weight: 600;
