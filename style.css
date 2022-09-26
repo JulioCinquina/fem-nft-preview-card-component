@@ -16,6 +16,10 @@
   box-sizing: inherit;
 }
 
+::backdrop {
+  --backdrop-color: hsla(178, 100%, 50%, 0.3);
+}
+
 body {
   min-height: 100vh;
   margin: 0;
@@ -100,6 +104,11 @@ main {
   border: none;
   padding: 0;
 }
+
+.nft__dialog::backdrop {
+  background-color: var(--backdrop-color);
+}
+
 .nft__title {
   font-size: 1.375rem;
   font-weight: 600;
