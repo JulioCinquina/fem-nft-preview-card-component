@@ -70,6 +70,7 @@ main {
   margin: 0;
 }
 
+/* <button> that opens the expanded NFT image */
 .nft__img {
   all: unset;
   display: block;
@@ -80,6 +81,7 @@ main {
   cursor: pointer;
 }
 
+/* NFT image overlay on hover */
 .nft__img::before {
   content: "";
   position: absolute;
@@ -114,6 +116,7 @@ main {
   outline: 1px solid var(--white);
 }
 
+/* Modal with expanded NFT image */
 .nft__dialog {
   --scrollbar-bg: var(--bg-main);
   --scrollbar-fg: var(--color-line);
@@ -125,6 +128,7 @@ main {
   position: relative;
 }
 
+/* Modal close button */
 .nft__dialog button {
   position: absolute;
   top: 1rem;
@@ -228,6 +232,7 @@ main {
   body {
     font-size: 1.125rem;
   }
+
   .nft {
     width: min(21.875rem, 90%);
     padding-block-end: 1.875rem;
